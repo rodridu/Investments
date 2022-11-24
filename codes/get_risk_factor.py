@@ -1,8 +1,3 @@
-"""
-author: zhimingmei
-date: 2022/07/21
-description: 通过股票日行情数据获得风险类因子数据
-"""
 
 
 import os
@@ -12,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import math
 
-path = '/Users/ryan/Documents/GitHub/GDHF-Quant-Investment/data'
+path = '/Users/hongz/data'
 file_name = 'eod_price.gz'
 input_file = os.path.join(path, file_name)
 df = pd.read_csv(input_file)
