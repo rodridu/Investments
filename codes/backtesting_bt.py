@@ -1,10 +1,3 @@
-'''
-
-author: 28zhimingmei
-date: 07/28/2022
-description: 根据预测数据进行多股回测, 并对投资组合进行分析
-
-'''
 
 
 import pandas as pd
@@ -17,7 +10,7 @@ import warnings
 
 warnings.simplefilter('ignore')
 
-path = '/Users/ryan/Documents/GitHub/GDHF-Quant-Investment/test_data'
+path = '/Users/hongz/test_data'
 file_name = 'test_data_all.parquet'
 
 data = pd.read_parquet(os.path.join(path, file_name))
