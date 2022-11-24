@@ -1,4 +1,4 @@
-# GDHF-Quant-Investment
+# Quant-Investment
 Codes and documents of the competition held by HOUFANG Investment
 
 ## 题目
