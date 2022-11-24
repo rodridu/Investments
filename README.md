@@ -1,5 +1,5 @@
 # Quant-Investment
-Codes and documents of the competition held by HOUFANG Investment
+Codes and documents of the multi-factor stock selection project
 
 ## 题目
 
