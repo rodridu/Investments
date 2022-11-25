@@ -21,7 +21,7 @@ def filter_MAD(df,factor,n=5):
     return df
 
 
-df = pd.read_table('D:/Desktop/厚方 投资建模/merged_daily_freq_factor.txt',sep=',')
+df = pd.read_table('C:/hongz/merged_daily_freq_factor.txt',sep=',')
 df = df.sort_values(by = 'TRADE_DT')
 
 grouped = df.groupby('TRADE_DT')
